@@ -56,7 +56,8 @@ The command-line application functions as follows:
 Code Framework from week 9 mini-project - OSU Bootcamp
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) </br>
+
 MIT License
 
 Copyright (c) [2023] [Ian Vignolles-Jeong]
