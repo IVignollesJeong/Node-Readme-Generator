@@ -98,6 +98,12 @@ inquirer
 
     {
       type: 'input',
+      message: 'Please input any tests you will be including. If not, type N/A',
+      name: 'tests',
+    },
+
+    {
+      type: 'input',
       message: 'Please link your GitHub profile URL',
       name: 'github',
     },
@@ -421,6 +427,15 @@ var chosenBadge =
 const readmeGen = 
 `# ${answers.title}
 
+## Table Of Contents
+    - [Description](#Description)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Credits](#Credits)
+    - [License](#License)
+    - [Tests](#Tests)
+    - [Questions](#Questions)
+
 ## Description
  ${answers.description}
 
@@ -442,6 +457,9 @@ ${answers.usage}
 ${chosenBadge}
 
 ${chosenLicense}
+
+## Tests
+${answers.tests}
 ## Questions
 More information on this project along with other projects in development can be found on my Github page found here: ${answers.github}.
 
